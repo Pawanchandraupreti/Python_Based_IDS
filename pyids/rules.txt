@@ -1,3 +1,2 @@
-
-
-
+alert tcp any any -> any 80 (msg:"SQL Injection Attempt"; content:"union select";)
+alert icmp any any -> any any (msg:"ICMP Ping Detected";)
