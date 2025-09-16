@@ -9,6 +9,7 @@ logging.basicConfig(level=logging.INFO,
                         logging.FileHandler('alerts.log'),
                         logging.StreamHandler()
                     ])
+
 def load_rules(rule_file):
     """Load and parse rules from the rules file."""
     rules_list = []
