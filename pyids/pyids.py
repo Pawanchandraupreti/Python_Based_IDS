@@ -37,7 +37,6 @@ def load_rules(rule_file):
         logging.error(f"Rule file {rule_file} not found!")
     return rules_list
 
-
 def packet_callback(packet, rules):
     """Function called for every captured packet."""
     # Check if packet has an IP layer
