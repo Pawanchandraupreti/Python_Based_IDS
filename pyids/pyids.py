@@ -112,7 +112,7 @@ def main():
             packet_callback(packet, rules)
     else:
         # Live capture on network interface
-        interface = args.interface if args.interface else None # Use default if none provided
+        interface = args.interface if args.interface else None 
         print(f"Starting live capture on interface: {interface}")
         # The 'prn' lambda function calls packet_callback for each packet
         sniff(iface=interface, prn=lambda pkt: packet_callback(pkt, rules), store=0)
