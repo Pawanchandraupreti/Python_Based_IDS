@@ -1,1 +1,7 @@
 
+2025-11-25 20:08:47,027 - INFO - Loaded 2 rules from rules.txt
+2025-11-25 20:10:37,280 - ERROR - Rule file rules.txt not found!
+2025-11-25 20:11:25,735 - INFO - Loaded 2 rules from rules.txt
+2025-11-25 20:11:28,830 - WARNING - ALERT: Injection | SRC: 192.168.1.5:54544 -> DST: 44.227.76.166:80
+2025-11-25 20:11:34,482 - WARNING - ALERT: Injection | SRC: 192.168.1.5:54544 -> DST: 44.227.76.166:80
+2025-11-25 20:19:09,063 - INFO - Loaded 2 rules from rules.txt

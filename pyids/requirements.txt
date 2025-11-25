@@ -1,1 +1,13 @@
+Hardware Requirements:
 
+Processor: Intel i5 or higher (or equivalent)
+RAM: Minimum 8 GB (16 GB recommended for live packet capture)
+Storage: 10–20 GB free space
+Network Card: Supports promiscuous mode (for packet sniffing)
+Operating System: Windows / Linux
+
+Software Requirements
+
+Python 3.9+
+pip (Python package manager)
+pip install scapy numpy pandas scikit-learn joblib colorama
