@@ -6,6 +6,7 @@ Storage: 10–20 GB free space
 Network Card: Supports promiscuous mode (for packet sniffing)
 Operating System: Windows / Linux
 
+
 Software Requirements
 
 Python 3.9+
