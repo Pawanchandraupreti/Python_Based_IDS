@@ -19,7 +19,7 @@ def load_rules(rule_file):
                 line = line.strip()
                 if line and not line.startswith('#'):  # Ignore empty lines and comments
                     parts = line.split()
-                    # A very basic parser. You can extend this greatly.
+                    # A very basic parser.
                     rule = {
                         'action': parts[0],       # e.g., 'alert'
                         'protocol': parts[1],     # e.g., 'tcp'
@@ -93,7 +93,7 @@ def log_alert(rule, packet, src_ip, dst_ip, src_port, dst_port):
     """Generate an alert log."""
     alert_msg = f"ALERT: {rule['msg']} | SRC: {src_ip}:{src_port} -> DST: {dst_ip}:{dst_port}"
     logging.warning(alert_msg)
-    # You can also add the packet summary: logging.info(packet.summary())
+    logging.info(packet.summary())
 
 def main():
     parser = argparse.ArgumentParser(description="PyIDS - A simple Python Intrusion Detection System")
@@ -119,4 +119,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
