@@ -12,3 +12,4 @@ Software Requirements
 Python 3.9+
 pip (Python package manager)
 pip install scapy numpy pandas scikit-learn joblib colorama
+
