@@ -103,6 +103,7 @@ def main():
 
     rules = load_rules('rules.txt')
 
+  
     if args.pcap:
         # Read packets from a file
         print(f"Reading packets from PCAP file: {args.pcap}")
